@@ -9,8 +9,8 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-600 flex justify-center items-center h-screen">
-<div class="flex flex-col w-2/3 bg-white rounded-lg overflow-hidden shadow">
+<body class="bg-gray-600 flex flex-col justify-center items-center h-screen">
+  <!-- <div class="flex flex-col w-2/3 bg-white rounded-lg overflow-hidden shadow">
   <div class="bg-gray-200 px-6 py-4 text-gray-700 capitalize font-bold text-lg">
     <h2>the title of the card here</h2>
   </div>
@@ -31,6 +31,25 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
+
+  <div>
+    <label for="email" class="text-gray-200 text-xl ">Email</label>
+    <div class="relative shadow mt-2">
+      <div class="absolute  flex items-center inset-y-0 pl-3 pt-2">
+        <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+          </path>
+        </svg>
+      </div>
+      <input id="email" placeholder="you@example.com" class="form-input rounded-md overflow-hidden w-96 pl-12 h-12 flex items-center focus:ring-4 focus:ring-blue-600">
+    </div>
+  </div>
+
+
+
 </body>
+
 </html>
